@@ -1,3 +1,10 @@
+"""Generate datasets from a reference TDB.
+
+Currently only supports ZPF data.
+
+Useful to generate small benchmark test sets.
+
+"""
 
 from pycalphad import Model, Database, calculate, equilibrium, variables as v
 from pycalphad.plot.eqplot import _map_coord_to_variable, unpack_condition
